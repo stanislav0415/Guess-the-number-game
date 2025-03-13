@@ -1,0 +1,80 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #FFDDC1, #FFABAB, #FFC3A0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+    animation: float 3s ease-in-out infinite;
+}
+
+h1 {
+    color: #FF6F61;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    font-size: 1.1em;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid #FF6F61;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #FF6F61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #FF6F61;
+    font-size: 1.2em;
+}
+.buttonAgain {
+    background: #42567b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttonAgain:hover {
+    transform: scale(1.1);
+}
+
